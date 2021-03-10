@@ -1,6 +1,7 @@
 # Image and video processing
 Taking an image and applying a "negative" filter
 
+> :P5 width=720, height=560
 > PImage photo1;
 > void setup() {
 >   size(1000, 1000);
