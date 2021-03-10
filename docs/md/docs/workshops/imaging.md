@@ -2,12 +2,12 @@
 Taking an image and applying a "negative" filter
 
 > :P5 width=720, height=560
-> PImage photo1;
-> void setup() {
+> function setup() {
+>    PImage photo1;
 >   size(1000, 1000);
 > }
 
-> void draw() {
+> function draw() {
 >  background(0,0,0);
 >  int halfImage = width*height/2;
 >  photo1 = loadImage("landscape.jpg");
