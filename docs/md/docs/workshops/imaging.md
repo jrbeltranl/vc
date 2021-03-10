@@ -2,27 +2,30 @@
 Taking an image and applying a "negative" filter
 
 > :P5 width=720, height=560
+> 
 > function setup() {
 >    PImage photo1;
 >   size(1000, 1000);
 > }
 
 > function draw() {
->  background(0,0,0);
->  int halfImage = width*height/2;
->  photo1 = loadImage("landscape.jpg");
->  photo1.resize(1000,500);
->  image(photo1, 0, 0);
->  loadPixels();
->  for (int i = 0; i < halfImage; i++) {
->      float r = 255-red(pixels[i]);
->      float g = 255-green(pixels[i]);
->      float b = 255-blue(pixels[i]);
->      color c = color(r,g,b);
->      pixels[i+halfImage] = c;
+>   background(0,0,0);
+>   int halfImage = width*height/2;
+>   photo1 = loadImage("landscape.jpg");
+>   photo1.resize(1000,500);
+>   image(photo1, 0, 0);
+>   loadPixels();
+>   for (int i = 0; i < halfImage; i++) {
+>       float r = 255-red(pixels[i]);
+>       float g = 255-green(pixels[i]);
+>       float b = 255-blue(pixels[i]);
+>       color c = color(r,g,b);
+>       pixels[i+halfImage] = c;
+>   }
+>   updatePixels();
 > }
->  updatePixels();
->}
+
+Here is the code for the above:
 
 ```md
 > PImage photo1;
