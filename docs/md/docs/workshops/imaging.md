@@ -9,7 +9,7 @@ Taking an image and applying a "negative" filter
 >   noLoop();
 >   noStroke();
 > }
-
+>
 > function draw() {
 >   background(0,0,0);
 >   int halfImage = width*height/2;
