@@ -2,7 +2,9 @@
 Taking an image and applying a "negative" filter.
 Screenshot of the code running:
 
-![Image Negative](docs/sketches/imageNegative.jpg)
+
+<img src="https://github.com/jrbeltranl/vc/blob/4379830e4c34c44d00803cc89c4dda8a4beb2d93/docs/sketches/imageNegative.jpg">
+
 
 Here is the code for the above:
 
