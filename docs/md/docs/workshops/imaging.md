@@ -2,7 +2,7 @@
 Taking an image and applying a "negative" filter.
 Screenshot of the code running:
 
-![Image Negative](imageNegative.png)
+![Image Negative](\vc\docs\sketches\imageNegative.jpg)
 
 Here is the code for the above:
 
